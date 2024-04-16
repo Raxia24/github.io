@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="C:\portapps\226939170-WebApp\CSS\technicaldoc.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav id="navbar">
+    <header>HTML Documentation</header>
+    <ul>
+      <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+      <li><a href="#What_you_should_already_know" class="nav-link">What you should already know</a></li>
+      <li><a href="#HTML and CSS" class="nav-link">HTML</a></li>
+      <li><a href="#Hello World" class="nav-link">Hellow World</a></li>
+      <li><a href="#HTML Elements" class="nav-link">HTML Elements</a></li>
+      <li><a href="#HTML File Paths" class="nav-link">HTML File Paths</a></li>
+      <li><a href="#CSS Syntax" class="nav-link">CSS Syntax</a></li>
+      <li><a href="#CSS Selectors" class="nav-link">CSS Selectors</a></li>
+      <li><a href="#CSS Comments" class="nav-link">CSS Comments</a></li>
+    </ul>
+  </nav>
+  <main id="main-doc">
+    <section id="Introduction" class="main-section">
+      <header>Introduction</header>
+      <ul>
+        <p>
+          HTML stands for Hypertext Markup Language. It is the standard markup language used for creating and designing
+          web pages. HTML provides
+          the structure and content of a webpage by using a system of tags and attributes.
+        </p>
+        <p>HTML is a foundational technology of the World Wide Web and is essential for creating web pages and
+          web applications. It works alongside other technologies like CSS (Cascading Style Sheets) for styling and
+          JavaScript for
+          adding interactivity, making it possible to create dynamic and visually appealing websites.
+        </p>
+        <ul>
+          <li>
+            In simpler terms, HTML is the language used to create the elements you see on a webpage, such as headings,
+            paragraphs, links, images, forms, and more. These elements are structured within an HTML document and are
+            interpreted by web browsers to display the content in a visually appealing and organized manner.
+          </li>
+        </ul>
+        <ul>
+          <li>
+            HTML documents are composed of a series of elements, each enclosed in opening and closing tags. These tags
+            define the purpose and behavior of each element, allowing developers to structure content and create
+            interactive experiences on the web.
+          </li>
+        </ul>
+      </ul>
+      </se5tion>
+      <section id="What_you_should_already_know" class="main-section">
+        <header>What you should already know</header>
+        <ul>
+          <p>Before diving into learning HTML and CSS, it's helpful to have the following basic background:</p>
+          <ul>
+            <li>Familiarity with the Internet and the World Wide Web (WWW).</li>
+            <li>A solid understanding of HyperText Markup Language (HTML).</li>
+            <li>Some experience with programming. If you're new to programming, consider starting with one of the
+              tutorials recommended on the main page about JavaScript.</li>
+          </ul>
+        </ul>
+        </section>
+      <section id="HTML and CSS" class="main-section">
+        <header>HTML</header>
+        <ul>
+          <p>HTML and CSS work together to create visually appealing and structured web pages. While they share some
+            similarities, they also have fundamental differences:</p>
+          <p>HTML (Hypertext Markup Language) provides the structure and content of a webpage. It uses tags to define
+            elements such as headings, paragraphs, links, images, and forms. HTML follows a set of conventions for syntax
+            and structure.</p>
+          <p>CSS (Cascading Style Sheets), on the other hand, is used to style the presentation of HTML elements. It
+            allows you to control the layout, colors, fonts, and other visual aspects of a webpage. CSS uses selectors to
+            target specific HTML elements and apply styles to them.</p>
+        </ul>
+        <section id="Hello World" class="main-section">
+          <header>Hello World</header>
+          <ul>
+            <article>
+              To get started with writing HTML, open Visual Studio and write
+              your first "Hello world" HTML code:
+              <code>
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html lang="en"&gt;<br>
+                &lt;head&gt;<br>
+                  &lt;meta charset="UTF-8"&gt;<br>
+                  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br>
+                  &lt;title&gt;Hello World&lt;/title&gt;<br>
+                &lt;/head&gt;<br>
+                &lt;body&gt;<br>
+                  &lt;h1&gt;Hello World!&lt;/h1&gt;<br>
+                &lt;/body&gt;<br>
+                &lt;/html&gt;
+              </code>
+              Select the code in the pad and hit Ctrl+R to watch it unfold in your
+              browser!
+            </article>
+          </ul>
+        </section>
+        <section id="HTML Elements" class="main-section">
+          <header>HTML Elements</header>
+          <ul>
+            <p>HTML elements are the building blocks of web pages. They define the structure and content of a webpage by representing various types of information, such as text, images, links, forms, and more. Each HTML element is enclosed within an opening tag and a closing tag, and they can also contain attributes that provide additional information about the element.</p>
+            <p></p>
+            <h2>Here are some common HTML elements:</h2>
+            <ul>
+              <h3>Heading Elements (h1 to h6)</h3>
+              <ul>
+                <li>Used to define headings of different levels, where h1 is the highest level and h6 is the lowest.</li>
+              </ul>
+              <h3>Paragraph Element (p)</h3>
+              <ul>
+                <li>Used to define paragraphs of text.</li>
+              </ul>
+              <h3>Link Element (a)</h3>
+              <ul>
+                <li>Used to create hyperlinks to other web pages or resources.</li>
+              </ul>
+              <h3>mage Element (img):</h3>
+              <ul>
+                <li>Used to embed images into a webpage.</li>
+              </ul>
+              <h3>List Elements (ul, ol, li)</h3>
+              <ul>
+                <li>Used to create unordered lists (ul)</li>
+                <li>ordered lists (ol)</li>
+                <li>and list items (li)</li>
+              </ul>
+            </ul>
+          </ul>
+        </section>
+        <section id="HTML File Paths" class="main-section">
+          <header>HTML File Paths</header>
+            <ul></ul>
+            <p>HTML file paths are essential for linking various resources, such as images, stylesheets, scripts, and other HTML files, within a web page. Understanding the different types of file paths and when to use them is crucial for building well-structured and functional websites.</p>
+            <ul>
+              <h2>Relative Paths</h2>
+              <ul>
+                <p>Relative paths specify the location of a file relative to the current document. Here are some examples:</p><code>&lt;img src="image.jpg"&gt;</code>
+                <p>This relative path links to an image file named "image.jpg" in the same directory as the current HTML file.</p>
+              </ul>
+              <h2>Absolute Paths</h2>
+              <ul>
+                <p>Absolute paths specify the complete URL or file path of the resource. Here's an example:</p>
+                <code>&lt;img src="https://example.com/images/image.jpg"&gt;</code></p>
+                <p>This absolute path links to an image hosted on a website with the URL "https://example.com/images/image.jpg".</p>
+              </ul>
+              <h2>External Paths</h2>
+              <ul>
+                <p>External paths are used to link to resources hosted on external websites or servers. Here's an example:</p>
+                <code>&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"&gt;</code>
+                <p>This external path links to a JavaScript file hosted on the CDNJS content delivery network.</p>
+              </ul>
+            </ul>
+        </section>
+        <section id="CSS Syntax" class"main-section"></section>
+          <header>CSS Syntax</header>
+          <ul>
+            <p>CSS (Cascading Style Sheets) is used to style HTML elements. The basic syntax of CSS consists of:</p>
+            
+            <h2>Selectors:</h2>
+            <p>CSS selectors target HTML elements to apply styles. They can be element selectors, class selectors, ID selectors, attribute selectors, or pseudo-class selectors. Example:</p>
+            <code>p { color: red; }</code>
+            <code>.example { font-size: 16px; }</code>
+            <code>#header { background-color: blue; }</code>
+            <code>input[type="text"] { border: 1px solid black; }</code>
+            <code>a:hover { color: green; }</code>
+            
+            <h2>Declaration Block:</h2>
+            <p>Contains one or more declarations, each consisting of a property and its corresponding value, enclosed within curly braces {}. Example:</p>
+            <code>p { color: red; font-size: 16px; }</code>
+            
+            <h2>Declaration:</h2>
+            <p>Consists of a property-value pair separated by a colon : and terminated by a semicolon ;. Example:</p>
+            <code>color: blue;</code>
+            
+            <h2>Comments:</h2>
+            <p>Allows you to add comments within the CSS code. Comments are enclosed within /* */. Example:</p>
+            <code>/* This is a comment */</code>
+          </ul>
+        </section>
+        <section id="CSS Selectors" class="main-section">
+          <header>CSS Selectors</header>
+          <ul>
+            <p>CSS selectors are patterns used to select and style HTML elements based on their attributes, types, relationships with other elements, or states. Here are some common CSS selectors:</p>
+            
+            <h2>Element Selector:</h2>
+            <p>Selects HTML elements based on their tag names. Example:</p>
+            <code>p</code>
+            
+            <h2>Class Selector:</h2>
+            <p>Selects HTML elements based on their class attribute. Example:</p>
+            <code>.example</code>
+            
+            <h2>ID Selector:</h2>
+            <p>Selects HTML elements based on their ID attribute. Example:</p>
+            <code>#header</code>
+            
+            <h2>Attribute Selector:</h2>
+            <p>Selects HTML elements based on their attribute values. Example:</p>
+            <code>input[type="text"]</code>
+            
+            <h2>Descendant Selector:</h2>
+            <p>Selects an element that is a descendant of another specified element. Example:</p>
+            <code>div p</code>
+          </ul>
+        </section>
+        <section id="CSS Comments" class="main-section">
+          <header>CSS Comments</header>
+          <ul>
+            <p>CSS comments are used to add notes or annotations within the CSS code. They are not displayed in the browser when the webpage is rendered and are intended for developers to provide context, explanations, or reminders about the CSS rules.</p>
+            <h2>How to Write CSS Comments:</h2>
+            <p>CSS comments begin with <code>/*</code> and end with <code>*/</code>. Anything between these markers is considered a comment and is ignored by the browser.</p>
+            <code>/* This is a CSS comment */</code>
+            <h2>Here are some common uses of CSS comments</h2>
+            <ul>
+              <h4>Documenting Code</h4>
+              <li>Comments can be used to document the purpose or usage of specific CSS rules. This makes it easier for developers to understand the code when they come back to it later.</li>
+              <h4>Debugging</h4>
+              <li> Comments can be used to temporarily disable or troubleshoot CSS rules without deleting them. This allows developers to experiment with different styles while keeping the original code intact.</li>
+              <h4>Organization</h4>
+              <li>Comments can be used to group related CSS rules together or to divide the code into sections for better organization and readability.</li>
+              <h4>Communication</h4>
+              <li>Comments can be used to communicate with other developers working on the same project, providing explanations or instructions regarding specific CSS rules or techniques.</li>
+            </ul>
+          </ul>  
+        </section>
+        
+  </main>
+</body>
+
+</html>
